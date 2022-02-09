@@ -18,4 +18,9 @@ public class Hand {
     public int getValue() {
         return this.value;
     }
+
+    @Override
+    public String toString() {
+        return String.valueOf(this.getValue());
+    }
 }
