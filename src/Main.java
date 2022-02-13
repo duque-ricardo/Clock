@@ -6,7 +6,7 @@ public class Main {
         while (true) {
             clock.run();
             System.out.println(clock);
-            thread.sleep(0);
+            thread.sleep(20);
         }
     }
 
